@@ -12,7 +12,7 @@
 		070B27FE2CFCD0D60071E6B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 070B27FD2CFCD0D60071E6B0 /* Assets.xcassets */; };
 		070B28012CFCD0D60071E6B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 070B28002CFCD0D60071E6B0 /* Preview Assets.xcassets */; };
 		070B280A2CFCD0E80071E6B0 /* Day00.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070B28092CFCD0E80071E6B0 /* Day00.swift */; };
-		070B28122CFCD1050071E6B0 /* AdventOfCode2025Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070B28112CFCD1050071E6B0 /* AdventOfCode2025Tests.swift */; };
+		070B28122CFCD1050071E6B0 /* Day00Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070B28112CFCD1050071E6B0 /* Day00Tests.swift */; };
 		070B28192CFCD2DE0071E6B0 /* day00.txt in Resources */ = {isa = PBXBuildFile; fileRef = 070B28182CFCD2DE0071E6B0 /* day00.txt */; };
 /* End PBXBuildFile section */
 
@@ -34,7 +34,7 @@
 		070B28002CFCD0D60071E6B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		070B28092CFCD0E80071E6B0 /* Day00.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day00.swift; sourceTree = "<group>"; };
 		070B280F2CFCD1050071E6B0 /* AdventOfCode2025Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdventOfCode2025Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		070B28112CFCD1050071E6B0 /* AdventOfCode2025Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventOfCode2025Tests.swift; sourceTree = "<group>"; };
+		070B28112CFCD1050071E6B0 /* Day00Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day00Tests.swift; sourceTree = "<group>"; };
 		070B28182CFCD2DE0071E6B0 /* day00.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = day00.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,9 +114,17 @@
 		070B28102CFCD1050071E6B0 /* AdventOfCode2025Tests */ = {
 			isa = PBXGroup;
 			children = (
-				070B28112CFCD1050071E6B0 /* AdventOfCode2025Tests.swift */,
+				070B281A2CFCF5340071E6B0 /* Advent */,
 			);
 			path = AdventOfCode2025Tests;
+			sourceTree = "<group>";
+		};
+		070B281A2CFCF5340071E6B0 /* Advent */ = {
+			isa = PBXGroup;
+			children = (
+				070B28112CFCD1050071E6B0 /* Day00Tests.swift */,
+			);
+			path = Advent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,7 +238,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				070B28122CFCD1050071E6B0 /* AdventOfCode2025Tests.swift in Sources */,
+				070B28122CFCD1050071E6B0 /* Day00Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +388,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -409,6 +418,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -430,6 +440,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = E2XY42337M;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.aptive.AdventOfCode2025Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -448,6 +459,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = E2XY42337M;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.aptive.AdventOfCode2025Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
