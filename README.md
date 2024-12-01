@@ -3,7 +3,7 @@
 ## Table of Contents
 
 #### 1. Introduction
-Welcome to my Swift-based solutions for [Advent of Code 2025]([url](https://adventofcode.com/2024)), a 25-day coding challenge featuring puzzles of increasing difficulty. 
+Welcome to my Swift-based solutions for [Advent of Code 2025](https://adventofcode.com/2024), a 25-day coding challenge featuring puzzles of increasing difficulty. 
 This repository is my attempt to solve the challenges using Swift, with an emphasis on clean, efficient, and idiomatic code.
 
 
