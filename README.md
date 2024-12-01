@@ -1,6 +1,10 @@
 # Advent of Code 2025: Swift Solutions 🎄
 
 ## Table of Contents
+1. [Introduction](https://github.com/Betzer09/AdventOfCodeSwift2025/blob/main/README.md#1-introduction)
+2. [Setup and Requirements](https://github.com/Betzer09/AdventOfCodeSwift2025/blob/main/README.md#2-setup-and-requirements)
+3. [Challenge Structure](https://github.com/Betzer09/AdventOfCodeSwift2025/blob/main/README.md#3-challenge-structure)
+4. [Progress](https://github.com/Betzer09/AdventOfCodeSwift2025/blob/main/README.md#4-progress)
 
 #### 1. Introduction
 Welcome to my Swift-based solutions for [Advent of Code 2025](https://adventofcode.com/2024), a 25-day coding challenge featuring puzzles of increasing difficulty. 
